@@ -1,5 +1,5 @@
-// Bronze - A standard library for Swift.
-// Copyright (C) 2015-2016  Tjienta Vara
+// TJRandom - A Swift package for generating random numbers.
+// Copyright (C) 2017  Tjienta Vara
 //
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -20,6 +20,11 @@
 #include <stdint.h>
 #include <stdlib.h>
 
+/** Fill and array of 64 bit integers with random data.
+ *
+ * - parameter values:      The array of 64 bit integers.
+ * - parameter nrValues:    Number of alaments in the array to fill with random data.
+ */
 void TJRandom_getUInt64Array(uint64_t *values, size_t nrValues);
 
 #endif /* integer_intrinsics_h */
